@@ -1,0 +1,55 @@
+@charset "utf-8";
+        
+.top{overflow: hidden;}
+.top-r{float: right;}
+.te{color:#f00;}
+.top-r span{margin-right:10px;}
+
+.header{width:1400px;overflow: hidden;}
+.logo{float:left;margin-left:-20px;margin-top:-10px; }
+.logo img{width:350px;height: 150px;}
+.header-c{float:left;}
+.search{margin:0 auto;margin-left:140px;margin-top:60px;line-height: 30px;position: relative;width:500px;}
+.su{background: url(../images/ss.png) no-repeat center;position: absolute;right:450px;top:88px;height: 36px;width:30px;border: 0;}
+.header-r{float: right;}
+.shopping{border: solid 1px black;margin-right:100px;margin-top:60px;width:100px;height:30px;line-height: 30px;text-align: right;background: url(../images/cat.png) no-repeat 10px;}
+
+.nav{width:1400px;height:40px;}
+ul{overflow: hidden;text-align: center;padding-left: 170px;}
+ul li{list-style: none;float:left;margin:10px 20px;width:110px;}
+a{color:#000;text-decoration: none;}
+a:hover{color:#f00;}
+.nav-ul li .sou{display:none;position: relative;}
+.nav-ul li:hover .sou{display:block;z-index: 999;margin-top:20px;border:1px solid #f99;background:#fff;}
+.nav-ul li .sou p{display:block;}
+
+.box{width:1130px;height:300px;position: relative;margin: 20px auto;overflow: hidden;}
+.imgbox img{width:1130px;height:300px;}
+.imgbox a{position: absolute;left:1130px;top:0}
+.imgbox a:nth-child(1){left:0}
+.btn *{border: none;background: rgba(255,255,255,0.6);width:50px;height:50px;position: absolute;top:125px;outline: none;cursor: pointer}
+#left{left:0}
+#right{right:0}
+
+.main{width:1400px;}
+.main img{background:url(../images/a1.png) no-repeat center;margin:40px 0 40px 140px;}
+.recommend{float: right;margin-right:500px;margin-top: 50px;}
+p{margin:20px auto;}
+.order{width:15px;height:10px;background:#0f0;line-height:10px;border:1px solid #000;}
+
+
+.about{width: 1400px;height: 400px;background: #ebebeb;overflow: hidden;margin:0 auto;}
+dl{float: left;}
+dt{margin:20px 70px;font:18px/2 "";color:#000;}
+dd{margin-left:70px;font:14px/2 "";color:#333;}
+.scan{float: right;margin-right:200px;margin-top:30px;}
+.img{float: right;margin-right:100px;margin-top:10px;}
+
+.container{width:1400px;height:100px;margin:0 auto;background: #ebebeb;overflow: hidden;}
+.link{display:block;float: left;padding:30px 0 0 120px;}
+.item{display:block;float: left;padding:30px 0 0 100px;font:12px/20px "";}
+a{margin:auto 10px;}
+
+.footer{width:1400px;background: #666;margin:0 auto;text-align: center;}
+span{font:14px/2 "";color:#999;}
+.copy{padding-bottom: 10px;}
